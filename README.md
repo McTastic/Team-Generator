@@ -1,16 +1,17 @@
 # Team Generator
 
- - [Demo](#demo)
  - [Description](#description)
+ - [Demo](#demo)
  - [Installation](#installation)
  - [Usage](#usage)
  - [Additional Info](#additional-info)
 
-    ## Demo:
-    ![demo of CLI questions and HTML doc created](./demo/team-generator-demo.gif)
-
     ## Description:
     This application is designed to take input from a CLI and use that to create an HTML file which lists a team with a single manager and as many engineers or interns as the user wishes to add. The full team is listed with some basic info for each teeam member on the html page that is created. 
+
+   ## Demo:
+    ![demo of CLI questions and HTML doc created](./demo/team-generator-demo.gif)
+    ![demo of application passing test](./demo/test_passing_demo)
 
     ## Installation:
     To install, simply copy the contents of this repository into a folder. Once in that folder, install the necessary required npm package (inquirer) by typing "npm i" in the command line. 
