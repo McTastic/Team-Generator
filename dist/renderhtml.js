@@ -266,7 +266,7 @@ const renderHTML = (cardData) => {
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
           crossorigin="anonymous"
         />
-        <link rel="stylesheet" href="../css/style.css" />
+        <link rel="stylesheet" href="./css/style.css" />
         <title>Team Profile Page</title>
       </head>
       <header class="red">My Team</header>
@@ -283,12 +283,9 @@ const renderHTML = (cardData) => {
 `
 };
 
-const init = () => {
-  promptManager()
-    .then(promptUser)
-    .then(() => fs.writeFileSync("index.html", generateCards(teamArr)))
-    .then(() => console.log("Successfully wrote to index.html"))
-    .catch((err) => console.error(err));
-};
-
-init();
+module.exports = {
+    promptManager,
+    promptUser,
+    generateCards,
+    teamArr
+}
