@@ -11,7 +11,7 @@
 
    ## Demo:
     ![demo of CLI questions and HTML doc created](./demo/team-generator-demo.gif)
-    ![demo of application passing test](./demo/test_passing_demo)
+    ![demo of application passing test](./demo/test_passing_demo.gif)
 
     ## Installation:
     To install, simply copy the contents of this repository into a folder. Once in that folder, install the necessary required npm package (inquirer) by typing "npm i" in the command line. 
