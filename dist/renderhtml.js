@@ -12,7 +12,7 @@ const promptManager = () => {
       {
         type: "input",
         name: "name",
-        message: "What is the employee name?",
+        message: "What is the manager's name?",
         validate: (nameInput) => {
           if (nameInput) {
             return true;
@@ -78,7 +78,7 @@ const promptUser = () => {
       {
         type: "input",
         name: "name",
-        message: "What is the manager's name?",
+        message: "What is the employee's name?",
         validate: (nameInput) => {
           if (nameInput) {
             return true;
@@ -205,7 +205,7 @@ const generateEngineer = (employee) => {
         <ul class="list-group list-group-flush employeeInfo">
           <li class="list-group-item">${employee.id}</li>
           <li class="list-group-item"><a href="mailto:${employee.email}">${employee.email}</a></li>
-          <li class="list-group-item"><a href="github.com/${employee.github}">${employee.github}</a></li>
+          <li class="list-group-item"><a href="github.com/${employee.github}"target="_blank">${employee.github}</a></li>
         </ul>
       </div>
     </div>`;
