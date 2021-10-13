@@ -78,7 +78,7 @@ const promptUser = () => {
       {
         type: "input",
         name: "name",
-        message: "What is the employee name?",
+        message: "What is the manager's name?",
         validate: (nameInput) => {
           if (nameInput) {
             return true;
