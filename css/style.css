@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    background: red;
+    padding: 1em 0 1em;
+    width: 100vw;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    width: 60%
+}
+.card{
+    box-shadow: 10px 10px 5px grey;
+    margin: 1em;
+    border: none;
+}
+.cardHeader{
+    background: blue;
+    color: white;
+}
+.cardBody{
+    background: rgb(224, 219, 219);
+    padding: 1em;
+}
+.employeeInfo{
+    background: white;
+}
